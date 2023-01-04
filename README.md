@@ -2,7 +2,7 @@
 
 #### Features:
 
-- Ability to input F.I.R data.
+ __Ability to input F.I.R data.__
  - Date: DATETIME
  - Time: TIMESTAMP
  - Incident details: VARCHAR
@@ -13,7 +13,7 @@
  - Created At: DATETIME
  - Police Station Id: INT
 
-- Ability to add a Police Station:
+__Ability to add a Police Station:__
  - Police Station Id: INT
  - Name: VARCHAR
  - Address Street: VARCHAR
@@ -22,15 +22,14 @@
  - Zip: INT
  - Lat: FLOAT
  - Long: FLOAT
-
-- Ability to analyse the data by Police:
+__Ability to analyse the data by Police:__
 Map View, Chart View
 Type of incidence
 Incident Zip
 Police Station Name
 …….
 
-- Ability to control access based on a RBAC system
+__Ability to control access based on a RBAC system:__
 Admin: This user role will be able to enter and modify the data : All the changes will be recorded and stored with encryption which even the admin won’t be able to change
 Police: This role will be able to view the data which is required by all or a subset of police officers ; We can also implement further access controls based on internal authorization levels of police officers
 Public : This role is assumed by the general public and they can view only the publicly disclosable information.
