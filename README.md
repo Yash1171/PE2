@@ -1,6 +1,6 @@
-### Project Exhibition 2
+## Project Exhibition 2
 
-#### Features:
+### Features:
 
  __Ability to input F.I.R data.__
  - Date: DATETIME
