@@ -42,7 +42,7 @@ __Alert system for public awareness:__
 - The police can include precautionary suggestions for the public based on their judgment from the data summary.
 
 
-#### USE CASE:
+### USE CASE:
 
 - Resource Allocation:
  - Weapon resource
