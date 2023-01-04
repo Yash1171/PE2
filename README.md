@@ -24,22 +24,22 @@ __Ability to add a Police Station:__
  - Long: FLOAT
 
 __Ability to analyse the data by Police:__
-Map View, Chart View
-Type of incidence
-Incident Zip
-Police Station Name
+- Map View, Chart View
+- Type of incidence
+- Incident Zip
+- Police Station Name
 …….
 
 __Ability to control access based on a RBAC system:__
 
-Admin: This user role will be able to enter and modify the data : All the changes will be recorded and stored with encryption which even the admin won’t be able to change
-Police: This role will be able to view the data which is required by all or a subset of police officers ; We can also implement further access controls based on internal authorization levels of police officers
-Public : This role is assumed by the general public and they can view only the publicly disclosable information.
+- Admin: This user role will be able to enter and modify the data : All the changes will be recorded and stored with encryption which even the admin won’t be able to change
+- Police: This role will be able to view the data which is required by all or a subset of police officers ; We can also implement further access controls based on internal authorization levels of police officers
+- Public : This role is assumed by the general public and they can view only the publicly disclosable information.
 
-Alert system for public awareness
-The summary will be sent by a text message to users who provide their contact number on the portal which will act as an alert system.
-The text message will contain only the highlights of the crimes in their area, the full summary and visualization will be visible on the site
-The police can include precautionary suggestions for the public based on their judgment from the data summary.
+__Alert system for public awareness:__
+- The summary will be sent by a text message to users who provide their contact number on the portal which will act as an alert system.
+- The text message will contain only the highlights of the crimes in their area, the full summary and visualization will be visible on the site
+- The police can include precautionary suggestions for the public based on their judgment from the data summary.
 
 
 #### USE CASE:
