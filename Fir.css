@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header{
+    width: 100vw;
+    min-height: 100vh;
+    background:  #7C00FF;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-top: -.5rem;
+    justify-content: center;
+    margin-left: 8rem;
+    width: 100%;
+
+}
+h4{
+    justify-content: center;
+    margin: -.5rem 7rem;
+}
+.container{
+    padding: .5rem;
+    background: rgb(255, 255, 255);
+    min-height: 520px;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.left{
+    padding: .5rem;
+    
+    flex-basis: 50%;
+}
+.right{
+    padding: .5rem;
+    flex-basis: 50%;
+}
+
+form{
+    padding: 1rem;
+}
+
+form input
+{
+    width: 100%;
+    padding: .5rem .7rem;
+    margin: .5rem 0;
+    outline: none;
+}
+
+#Zip{
+    display: flex;
+    margin: .5rem 0;
+    outline: none;
+    width: 100%;
+}
+#Zip select{
+    padding: .5rem .7rem;
+    margin: .5rem 0;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: green;
+    cursor: pointer;
+}
